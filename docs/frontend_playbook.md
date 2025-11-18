@@ -264,7 +264,6 @@ common/
 | **Titus Rivendare** | **Aura:** افکت‌های **Deathrattle** شما دو بار فعال می‌شوند. | <img src="../bgknowhow-main/images/minions/BG25_354_render_80.webp" alt="Titus Rivendare" width="130"> |
 
 ##  نکات ریز ولی ضروری
-- Sylvanas فقط هیرو است؛ اگر جایی لازم شد کارتی به همین نام بود، نادیده بگیرید.  
 - همه تصاویر را در manifest ثبت کنید تا Loader بتواند Missing‌ها را گزارش کند.  
 - اگر داده ناقص وارد شد (`slot` یا `type` نبود)، Loader باید خطا بدهد و اجرای Combat را متوقف کند.  
 - `state_delta`‌های Recruit باید فیلد `keywords` و `auras` را هم برای هر کارت بفرستند تا UI بتواند آیکن و Glow را همگام نگه دارد؛ در غیر این صورت بازیکن نمی‌فهمد Reborn/Windfury یا اثرات تیترسی مثل Rivendare فعال است.
